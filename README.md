@@ -1,62 +1,65 @@
-# 🚗 ApexDrive | Inferno GT
+# 🚗 ApexDrive
 
-A premium futuristic hypercar showcase website built with **HTML, CSS, and JavaScript**.
+ApexDrive is a premium futuristic hypercar showcase web experience designed to deliver cinematic visuals, immersive interactions, and luxury automotive branding.
 
-Live Demo: https://ayushrajfrontend.github.io/ApexDrive/
-
----
+Built as a high-end frontend project, ApexDrive focuses on storytelling through motion, premium UI design, and engaging interactive elements.
 
 ## ✨ Features
 
-- 🎬 Cinematic loading screen with animated percentage
-- 🚗 Premium hypercar hero section
-- 🔊 Engine ignition sound with smoke startup effects
-- 🏎️ Live animated speedometer
-- 🎨 Interactive car color configurator
-- 🧠 Futuristic feature showcase
-- 👑 Luxury interior experience section
-- 📸 Cinematic gallery with fullscreen lightbox
-- 💬 Premium testimonials section
-- 📩 Reservation contact form with custom success popup
-- 🔇 Sound mute/unmute control
-- 🖱️ 3D hypercar tilt mouse interaction
-- 🌍 Fully deployed with GitHub Pages
-- 📱 Fully responsive mobile-friendly design
+- Cinematic hypercar landing experience
+- Premium futuristic UI design
+- Interactive car configurator
+- Dynamic color customization
+- Live speedometer animation
+- Engine startup interaction
+- Luxury gallery showcase
+- Smooth scroll animations
+- Fully responsive layout
+- Premium sound effects
+- Interactive user experience
 
----
+## 🛠 Tech Stack
 
-## 🛠️ Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+- GitHub Pages Deployment
 
-- HTML
-- CSS
-- JavaScript (Vanilla JS)
+## 🌐 Live Demo
 
----
+🔗 https://ayushrajfrontend.github.io/ApexDrive/
 
-## 📂 Project Structure
+## 📸 Preview
 
-```bash
-ApexDrive/
-│
-├── index.html
-├── style.css
-├── script.js
-├── favicon.png
-│
-├── images/
-│   ├── car.png
-│   ├── car-black.png
-│   ├── car-red.png
-│   ├── car-silver.png
-│   ├── car-blue.png
-│   ├── interior1.jpg
-│   ├── interior2.jpg
-│   ├── interior3.jpg
-│   ├── gallery1.jpg
-│   ├── gallery2.jpg
-│   ├── gallery3.jpg
-│   ├── gallery4.jpg
-│   └── share-preview.jpg
-│
-└── sounds/
-    └── engine.mp3
+![ApexDrive Preview](images/preview.png)
+
+## 🎯 Project Purpose
+
+ApexDrive was created to showcase advanced frontend development skills through a visually immersive premium automotive experience.
+
+The project focuses on combining cinematic design, interactivity, modern frontend animations, and storytelling-driven UI.
+
+## 🚀 Highlights
+
+- Premium luxury branding
+- Cinematic frontend storytelling
+- Advanced animations
+- Interactive configurator
+- Responsive premium layout
+- High visual polish
+- Immersive user experience
+
+## 📂 Source Code
+
+GitHub Repository:  
+https://github.com/AyushRajFrontend/ApexDrive
+
+## 👨‍💻 Author
+
+**Ayush Raj**
+
+Frontend Developer focused on premium digital experiences.
+
+Portfolio:  
+https://ayushrajfrontend.github.io/ayush-portfolio/

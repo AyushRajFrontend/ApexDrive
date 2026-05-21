@@ -27,8 +27,8 @@ Live Demo: https://ayushrajfrontend.github.io/ApexDrive/
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript (Vanilla JS)
 
 ---

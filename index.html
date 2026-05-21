@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="ApexDrive | Inferno GT">
+   <meta property="og:description" content="Forged for dominance. Experience the future of hypercars.">
+   <meta property="og:image" content="https://ayushrajfrontend.github.io/ApexDrive/images/preview.png">
+   <meta property="og:url" content="https://ayushrajfrontend.github.io/ApexDrive/">
+   <meta property="og:type" content="website">
+
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="ApexDrive | Inferno GT">
+   <meta name="twitter:description" content="Forged for dominance. Experience the future of hypercars.">
+   <meta name="twitter:image" content="https://ayushrajfrontend.github.io/ApexDrive/images/preview.png">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <h1>APEXDRIVE</h1>
+    <p id="loaderText">Initializing vehicle systems... 0%</p>
+  </div>
+
+  <!-- BACKGROUND GLOW -->
+  <div class="bg-glow glow1"></div>
+  <div class="bg-glow glow2"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">APEXDRIVE</div>
+
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#specs">Specs</a>
+      <a href="#interior">Interior</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reserve">Reserve</a>
+    </nav>
+
+    <a href="#contact" class="reserve-btn">Reserve</a>
+  </header>
+  
+  <div class="cursor-glow"></div>
+  
+  <!-- HERO -->
+  <section class="hero" id="hero">
+
+    <div class="hero-text">
+      <p class="hero-tag">HYPERCAR EVOLUTION</p>
+
+      <h1>
+        UNLEASH PURE <span>PERFORMANCE</span>
+      </h1>
+
+      <p class="hero-desc">
+        A machine engineered beyond limits. Forged for speed. Built for domination.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#specs" class="primary-btn">Explore Beast</a>
+        <button class="secondary-btn" id="engineBtn">Start Engine</button>
+      </div>
+    </div>
+
+    <div class="hero-car">
+      <img src="images/car.png" alt="ApexDrive Inferno GT">
+    </div>
+
+  </section>
+
+  <!-- SPECS -->
+  <section class="specs reveal" id="specs">
+  <div class="specs-header">
+    <p class="section-tag">PERFORMANCE SPECS</p>
+    <h2>Engineered Beyond Limits</h2>
+  </div>
+
+  <div class="specs-grid">
+    <div class="spec-card">
+      <h3 class="counter" data-target="2.9">0</h3>
+      <p>0–100 km/h</p>
+    </div>
+
+    <div class="spec-card">
+      <h3 class="counter" data-target="320">0</h3>
+      <p>Top Speed</p>
+    </div>
+
+    <div class="spec-card">
+      <h3 class="counter" data-target="780">0</h3>
+      <p>Range (km)</p>
+    </div>
+
+    <div class="spec-card">
+      <h3 class="counter" data-target="1100">0</h3>
+      <p>Horsepower</p>
+    </div>
+  </div>
+</section>
+
+  <section class="speedometer-section">
+  <div class="speed-left">
+    <p class="section-tag">PERFORMANCE MONITOR</p>
+    <h2>Velocity Unleashed</h2>
+    <p>
+      ApexDrive performance intelligence visualized in real time.
+    </p>
+  </div>
+
+  <div class="speed-right">
+    <div class="speed-circle">
+      <div class="speed-inner">
+        <span id="speedValue">0</span>
+        <small>KM/H</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- CONFIGURATOR -->
+  <section class="configurator reveal" id="configurator">
+  <div class="config-left">
+    <p class="section-tag">CONFIGURATOR</p>
+    <h2>Craft Your ApexDrive</h2>
+    <p>
+      Personalize the Inferno GT with aggressive finishes
+      engineered for your style.
+    </p>
+
+    <div class="color-options">
+      <button class="color-btn active" data-color="black"></button>
+      <button class="color-btn red" data-color="red"></button>
+      <button class="color-btn silver" data-color="silver"></button>
+      <button class="color-btn blue" data-color="blue"></button>
+    </div>
+  </div>
+
+  <div class="config-right">
+    <img src="images/car-black.png" id="configCar" alt="Configurator Car">
+  </div>
+</section>
+
+  <!-- INTERIOR -->
+  <section class="interior reveal" id="interior">
+  <div class="interior-header">
+    <p class="section-tag">INTERIOR EXPERIENCE</p>
+    <h2>Luxury Meets Performance</h2>
+  </div>
+
+  <div class="interior-grid">
+
+    <div class="interior-card">
+      <img src="images/interior1.jpg" alt="">
+      <h3>Driver Cockpit</h3>
+      <p>Race-inspired cockpit engineered for total control.</p>
+    </div>
+
+    <div class="interior-card">
+      <img src="images/interior2.jpg" alt="">
+      <h3>Ambient Lighting</h3>
+      <p>Immersive lighting that adapts to your driving mood.</p>
+    </div>
+
+    <div class="interior-card">
+      <img src="images/interior3.jpg" alt="">
+      <h3>Luxury Seating</h3>
+      <p>Precision-crafted comfort with premium materials.</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- FEATURE -->
+  <section class="features reveal" id="features">
+  <div class="features-header">
+    <p class="section-tag">ADVANCED FEATURES</p>
+    <h2>Technology Built For Legends</h2>
+  </div>
+
+  <div class="features-grid">
+
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <h3>Instant Torque</h3>
+      <p>
+        Explosive acceleration with ultra-fast power delivery.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">🧠</div>
+      <h3>AI Driving Assist</h3>
+      <p>
+        Smart adaptive driving systems powered by machine intelligence.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">🛡️</div>
+      <h3>Advanced Safety</h3>
+      <p>
+        Predictive collision avoidance and elite structural protection.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">📡</div>
+      <h3>Connected Control</h3>
+      <p>
+        Control vehicle systems remotely with ApexDrive mobile ecosystem.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- GALLERY -->
+  <section class="gallery reveal" id="gallery">
+  <div class="gallery-header">
+    <p class="section-tag">VISUAL EXPERIENCE</p>
+    <h2>Designed To Be Admired</h2>
+  </div>
+
+  <div class="gallery-grid">
+    <img src="images/gallery1.jpg" alt="">
+    <img src="images/gallery2.jpg" alt="">
+    <img src="images/gallery3.jpg" alt="">
+    <img src="images/gallery4.jpg" alt="">
+  </div>
+</section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+  <div class="testimonials-header">
+    <p class="section-tag">OWNER REVIEWS</p>
+    <h2>What Legends Say</h2>
+  </div>
+
+  <div class="testimonials-grid">
+
+    <div class="testimonial-card">
+      <p>
+        “ApexDrive changed what I thought performance meant.”
+      </p>
+      <h4>— Ethan Black</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>
+        “Feels less like a car and more like a weapon.”
+      </p>
+      <h4>— Sophia Carter</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>
+        “The future of hypercars has arrived.”
+      </p>
+      <h4>— Daniel Hayes</h4>
+    </div>
+
+  </div>
+</section>
+
+  <!-- RESERVE -->
+  <section class="contact reveal" id="contact">
+  <div class="contact-left">
+    <p class="section-tag">RESERVE NOW</p>
+    <h2>Own The Future</h2>
+    <p>
+      Interested in ApexDrive Inferno GT?
+      Contact our luxury sales team for early access.
+    </p>
+  </div>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Email Address">
+    <textarea placeholder="Tell us your dream build..."></textarea>
+    <button type="submit">Reserve Your ApexDrive</button>
+  </form>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+  <p>© ApexDrive 2026. Forged for Dominance.</p>
+  </footer>
+
+  <audio id="engineSound">
+    <source src="sounds/engine.mp3" type="audio/mp3">
+  </audio>
+  
+  <div class="lightbox" id="lightbox">
+  <span id="closeLightbox">&times;</span>
+  <img id="lightboxImg" src="">
+  </div>
+  
+  <div class="engine-effects" id="engineEffects"></div>
+  
+  <div class="success-modal" id="successModal">
+  <div class="success-box">
+    <div class="success-icon">🏎️</div>
+    <h3>Reservation Request Sent</h3>
+    <p>
+      ApexDrive luxury sales team will contact you shortly.
+    </p>
+    <button id="closeSuccess">Continue</button>
+  </div>
+  </div>
+  
+  <button id="soundToggle">🔊</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
